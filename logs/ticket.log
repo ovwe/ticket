@@ -1,0 +1,216 @@
+2019-02-01T17:37:03,681INFO [main]com.ovwe.tick.TicketApplication.logStarting(StartupInfoLogger.java:50):Starting TicketApplication on LQBD003 with PID 7192 (D:\hanshandevfiles\ticket\target\classes started by h11484 in D:\hanshandevfiles\ticket)
+2019-02-01T17:37:03,689INFO [main]com.ovwe.tick.TicketApplication.logStartupProfileInfo(SpringApplication.java:675):No active profile set, falling back to default profiles: default
+2019-02-01T17:37:06,253INFO [main]org.spri.boot.web.embe.tomc.TomcatWebServer.initialize(TomcatWebServer.java:90):Tomcat initialized with port(s): 18080 (http)
+2019-02-01T17:37:06,304INFO [main]org.apac.coyo.http.Http11NioProtocol.log(DirectJDKLog.java:173):Initializing ProtocolHandler ["http-nio-172.27.32.107-18080"]
+2019-02-01T17:37:06,328INFO [main]org.apac.cata.core.StandardService.log(DirectJDKLog.java:173):Starting service [Tomcat]
+2019-02-01T17:37:06,328INFO [main]org.apac.cata.core.StandardEngine.log(DirectJDKLog.java:173):Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-01T17:37:06,369INFO [main]org.apac.cata.core.AprLifecycleListener.log(DirectJDKLog.java:173):The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\hanshancatalog\hanshandevelop\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\hanshancatalog\hanshanauxiliary\Calibre2\;D:\hanshancatalog\hanshandevelop\Git\cmd;.]
+2019-02-01T17:37:06,756INFO [main]org.apac.cata.core.Cont.[Tom.[loc.[/ticket].log(DirectJDKLog.java:173):Initializing Spring embedded WebApplicationContext
+2019-02-01T17:37:06,757INFO [main]org.spri.web.cont.ContextLoader.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296):Root WebApplicationContext: initialization completed in 2966 ms
+2019-02-01T17:37:07,601INFO [main]org.spri.sche.conc.ThreadPoolTaskExecutor.initialize(ExecutorConfigurationSupport.java:171):Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-01T17:37:07,918INFO [main]org.apac.coyo.http.Http11NioProtocol.log(DirectJDKLog.java:173):Starting ProtocolHandler ["http-nio-172.27.32.107-18080"]
+2019-02-01T17:37:07,965INFO [main]org.spri.boot.web.embe.tomc.TomcatWebServer.start(TomcatWebServer.java:204):Tomcat started on port(s): 18080 (http) with context path '/ticket'
+2019-02-01T17:37:07,971INFO [main]com.ovwe.tick.TicketApplication.logStarted(StartupInfoLogger.java:59):Started TicketApplication in 5.257 seconds (JVM running for 7.358)
+2019-02-01T17:37:59,550INFO [http-nio-172.27.32.107-18080-exec-1]org.apac.cata.core.Cont.[Tom.[loc.[/ticket].log(DirectJDKLog.java:173):Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-01T17:37:59,551INFO [http-nio-172.27.32.107-18080-exec-1]org.spri.web.serv.DispatcherServlet.initServletBean(FrameworkServlet.java:524):Initializing Servlet 'dispatcherServlet'
+2019-02-01T17:37:59,624INFO [http-nio-172.27.32.107-18080-exec-1]org.spri.web.serv.DispatcherServlet.initServletBean(FrameworkServlet.java:546):Completed initialization in 73 ms
+2019-02-01T17:37:59,704INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,705ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,705INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,705ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,706INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,706ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,709INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,710ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,710INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,710ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,710INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,711ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,711INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,711ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,712INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,712ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,712INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,712ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,713INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,713ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,713INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,713ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,714INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,714ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,714INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,715ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,715INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,715ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,716INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,716ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,716INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,717ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,717INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,717ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,718INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,718ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,718INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,719ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,719INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,719ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,720INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,720ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,720INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,721ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,721INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,722ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,722INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,722ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,723INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,723ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,724INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,724ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,724INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,725ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,725INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,726ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,726INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,726ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,727INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,727ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,727INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,727ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,728INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,728ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,728INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,729ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,729INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,729ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,729INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,730ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,730INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,730ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,730INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,731ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,731INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,731ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,731INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,732ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,732INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,732ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,732INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,733ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,733INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,733ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,733INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,733ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,734INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,734ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,734INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,734ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,735INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,735ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,735INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,736ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,736INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,736ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,736INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,737ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,737INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,737ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,737INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,738ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,738INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,738ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,738INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,739ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,739INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,739ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,739INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,740ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,740INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,740ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,740INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,741ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,741INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,741ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,741INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,742ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,742INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,742ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,742INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,742ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,743INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,743ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,743INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,744ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,744INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,744ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,744INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,745ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,745INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,745ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,745INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,746ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,746INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,746ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,747INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,747ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,747INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,747ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,748INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,748ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,748INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,749ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,749INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,749ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,749INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,750ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,750INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,750ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,750INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,751ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,751INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,751ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,752INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,752ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,752INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,752ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,753INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,753ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,753INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,753ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,754INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,754ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,754INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,755ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,755INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,755ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,755INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,756ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,756INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,770ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,771INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,771ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,771INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,771ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,772INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,772ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,772INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,773ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,773INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,773ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,773INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,774ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,774INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,774ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,774INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,775ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,775INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,775ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,775INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,776ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,776INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,776ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,776INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,777ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,777INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,777ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok
+2019-02-01T17:37:59,778INFO [http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:28):ok
+2019-02-01T17:37:59,778ERROR[http-nio-172.27.32.107-18080-exec-1]com.ovwe.tick.serv.tick.impl.TicketGenerateServiceImpl.generateTrain(TicketGenerateServiceImpl.java:29):ok

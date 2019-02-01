@@ -15,9 +15,12 @@
                 <ThresholdFilter level="TRACE" onMatch="ACCEPT" onMismatch="DENY"/>-->
             </Filters>
 
-            <Layout type="PatternLayout" pattern="%style{%d{ISO8601}}{black}%style{%-5level:}{yellow}[%style{%t}{blue}]%style{%c{4.}}{yellow}[%L]:%style{%msg%n%throwable}{green}"/>
+            <Layout type="PatternLayout">
+                <Pattern>%style{%d{ISO8601}}{black}%style{%-5level}{yellow}[%style{%t}{blue}]%style{%c{4.}.%M}{yellow}(%F:%L):%style{%msg%n%throwable}{green}</Pattern>
+            </Layout>
+
             <!--<Filters>
-            %style{%d{ISO8601}}{black} %style{[%t]}{blue} %style{%-5level:}{yellow} %style{%msg%n%throwable}{green}
+            %style{%d{ISO8601}}{black}%style{%-5level}{yellow}[%style{%t}{blue}]%style{%c{4.}.%M}{yellow}(%F:%L):%style{%msg%n%throwable}{green}
                 <Filter type="MarkerFilter" marker="FLOW" onMatch="DENY" onMismatch="NEUTRAL"/>
                 <Filter type="MarkerFilter" marker="EXCEPTION" onMatch="DENY" onMismatch="ACCEPT"/>
             </Filters>-->
@@ -45,7 +48,7 @@
                 <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
             </Filters>
             <Layout type="PatternLayout">
-                <Pattern>%highlight{[%d][%t][%-5level]%c{4.}[%L]:%msg%n%throwable}</Pattern>
+                <Pattern>%d{ISO8601}%-5level[%t]%c{4.}.%M(%F:%L):%msg%n%throwable</Pattern>
             </Layout>
             <Policies>
                 <SizeBasedTriggeringPolicy size="100 KB"/>
@@ -67,7 +70,7 @@
             <AppenderRef ref="File"/>
         </Logger>-->
 
-        <Root level="info">
+        <Root level="info" includeLocation="true">
             <AppenderRef ref="STDOUT"/>
             <AppenderRef ref="RollingFile"/>
         </Root>
