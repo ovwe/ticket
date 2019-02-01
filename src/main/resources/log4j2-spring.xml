@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" monitorInterval="30" strict="true" name="XMLConfigOvwe">
+    <Properties>
+        <Property name="filename">logs/ticket.log</Property>
+    </Properties>
+    <Filter type="ThresholdFilter" level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+    <Appenders>
+        <Appender type="Console" name="STDOUT">
+            <Filters>
+                <ThresholdFilter level="FATAL" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+                <!--<ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="TRACE" onMatch="ACCEPT" onMismatch="DENY"/>-->
+            </Filters>
+
+            <Layout type="PatternLayout" pattern="%style{%d{ISO8601}}{black}%style{%-5level:}{yellow}[%style{%t}{blue}]%style{%c{4.}}{yellow}[%L]:%style{%msg%n%throwable}{green}"/>
+            <!--<Filters>
+            %style{%d{ISO8601}}{black} %style{[%t]}{blue} %style{%-5level:}{yellow} %style{%msg%n%throwable}{green}
+                <Filter type="MarkerFilter" marker="FLOW" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <Filter type="MarkerFilter" marker="EXCEPTION" onMatch="DENY" onMismatch="ACCEPT"/>
+            </Filters>-->
+        </Appender>
+        <!--<Appender type="Console" name="FLOW">
+            <Layout type="PatternLayout" pattern="%C{1}.%M %m %ex%n"/>&lt;!&ndash; class and line number &ndash;&gt;
+            <Filters>
+                <Filter type="MarkerFilter" marker="FLOW" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <Filter type="MarkerFilter" marker="EXCEPTION" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </Appender>-->
+        <!--<Appender type="File" name="File" fileName="${filename}">
+            <Layout type="PatternLayout">
+                <Pattern>%d [%t] %-5level: %msg%n%throwable</Pattern>
+            </Layout>
+        </Appender>-->
+        <Appender type="RollingFile"
+                   name="RollingFile"
+                   fileName="logs/ticket.log"
+                  filePattern="logs/$${date:yyyy-MM}/ticket-%d{MM-dd-yyyy}-%i.log.gz">
+            <Filters>
+                <ThresholdFilter level="FATAL" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Layout type="PatternLayout">
+                <Pattern>%highlight{[%d][%t][%-5level]%c{4.}[%L]:%msg%n%throwable}</Pattern>
+            </Layout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="100 KB"/>
+                <TimeBasedTriggeringPolicy interval="8" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </Appender>
+    </Appenders>
+
+    <Loggers>
+        <!--<Logger name="org.apache.logging.log4j.test1" level="debug" additivity="false">
+            <Filter type="ThreadContextMapFilter">
+                <KeyValuePair key="test" value="123"/>
+            </Filter>
+            <AppenderRef ref="STDOUT"/>
+        </Logger>
+
+        <Logger name="org.apache.logging.log4j.test2" level="debug" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>-->
+
+        <Root level="info">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

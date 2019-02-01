@@ -1,0 +1,2 @@
+http://172.27.32.107:18080/ticket/ticketGenerate/generateTrain?train=G123
+http://172.27.32.107:18080/ticket/ticketGenerate/deleteTrain?train=G123

@@ -30,7 +30,7 @@
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
-        <table schema="public" tableName="ticket" domainObjectName="Ticket" >
+        <table schema="ticket" tableName="ticket" domainObjectName="Ticket" >
         </table>
 
         <!--<table schema="DB2ADMIN" tableName="ALLTYPES" domainObjectName="Customer" >
